@@ -16,7 +16,7 @@ public class AddTasks {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long TaskId;
+    private Integer TaskId;
     private String TaskName;
     private String TaskDescription;
     private String TaskDate;
